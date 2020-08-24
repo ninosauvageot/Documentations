@@ -53,3 +53,12 @@ vérifier le status de portsentry :
 
     sudo systemctl status portsentry
 
+pour débanir une IP : 
+
+1) effacer la ligne correpondant à l'ip dans le fichier :
+
+    /etc/hosts.deny
+
+2) entrer la commande : 
+
+    sudo route del adressIP reject
