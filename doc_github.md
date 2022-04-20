@@ -1,6 +1,6 @@
 # Documentation github
 
-## Commandes:
+## Commandes
 
 créer une copie local d'un répertoire distant
 
