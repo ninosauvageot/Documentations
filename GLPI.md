@@ -52,17 +52,17 @@ on modifie un fichier de configuration pour apache :
 
 modification du fichier :
 
-<virtualHost *:80>
-        ServerAdmin webmaster@localhost
-        DocumentRoot /var/www/html/glpi
-        <Directory /var/www/html/glpi>
-                Options Indexes FollowSymLinks
-                AllowOverride All
-                Require all granted
-        </Directory>
-        ErrorLog ${APACHE_LOG_DIR}/error.log
-        CustomLog ${APACHE_LOG_DIR}/access.log combined
-</virtualHost>
+    <virtualHost *:80>
+            ServerAdmin webmaster@localhost
+            DocumentRoot /var/www/html/glpi
+            <Directory /var/www/html/glpi>
+                    Options Indexes FollowSymLinks
+                    AllowOverride All
+                    Require all granted
+            </Directory>
+            ErrorLog ${APACHE_LOG_DIR}/error.log
+            CustomLog ${APACHE_LOG_DIR}/access.log combined
+    </virtualHost>
 
 on modifie les droits :
 

@@ -57,8 +57,21 @@ pour débanir une IP :
 
 1) effacer la ligne correpondant à l'ip dans le fichier :
 
-    /etc/hosts.deny
+        /etc/hosts.deny
 
 2) entrer la commande : 
 
-    sudo route del adressIP reject
+        sudo route del adressIP reject
+
+3) ignorer ip (whitelist):
+
+    ouvrir le fichier /etc/portsentry/portsentry.ignore.static
+
+        nano /etc/portsentry/portsentry.ignore.static
+
+    mettre les ip à ignorer à la suite des lignes suivante :
+
+        127.0.0.1
+        0.0.0.0
+
+    

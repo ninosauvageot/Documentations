@@ -35,3 +35,8 @@ relancer et rechargé l'agent
     systemctl restart fusioninventory-agent
 
     systemctl reload fusioninventory-agent
+
+
+lancer la commande pour contacter instantanément le serveur glpi: 
+
+    fusioninventory-agent 
